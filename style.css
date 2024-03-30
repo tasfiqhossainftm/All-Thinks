@@ -1,0 +1,74 @@
+body{
+  font-family: "Work Sans", sans-serif;
+}
+
+/* Hero Section */
+
+header{
+    background-image: url(images/banner/banner1.png);
+    background-repeat: no-repeat;
+}
+main{
+    max-width: 1140px;
+}
+/* .hero-area{
+    text-align: right;
+    padding: 215px 230px 330px 845px;
+} */
+
+.hero-area{
+    text-align: right;
+    width: 50%;
+    margin-left: 40%;
+    padding-top: 200px;
+    
+    padding-bottom: 140px;
+}
+.believe-title{
+    font-size: 55px;
+}
+
+.believe-sub-title{
+    font-size: 16px;
+    padding-bottom: 35px;
+}
+
+.primary-btn{
+    background: #F15B22;
+    color: #ffffff;
+    border: none;
+    width: 160px;
+    height: 60px;
+    border-radius: 5px;
+}
+
+/* Previous Year */
+
+.previous-year{
+    display: flex;
+}
+
+.person img{
+    width: 540px;
+    height: 700px;
+    text-align: center;
+    margin-left: 10%;
+    padding-top: 130px;
+    padding-bottom: 130px;
+}
+
+.failures-of-previous-year{
+    width: 40%;
+    margin-left: 10%;
+    padding-top: 370px;
+}
+
+.failures-of-previous-year h2{
+    font-size: 40px;
+    max-width: 280px;
+}
+
+.failures-of-previous-year p{
+    font-size: 16px;
+}
+
