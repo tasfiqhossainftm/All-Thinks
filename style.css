@@ -72,3 +72,29 @@ main{
     font-size: 16px;
 }
 
+/* My Plans */
+
+.my-plans{
+    text-align: center;
+    font-size: 40px;
+    padding-bottom: 55px;
+}
+
+.plans-child{
+    display: flex;
+    text-align: center;
+    margin-bottom: 130px;
+}
+
+.child{
+    margin-left: 50px;
+    text-align: center;
+}
+
+.child h4{
+    font-size: 30px;
+}
+
+.child p{
+    font-size: 25px;
+}
