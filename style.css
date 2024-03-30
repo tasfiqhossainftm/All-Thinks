@@ -34,12 +34,15 @@ main{
 }
 
 .primary-btn{
-    background: #F15B22;
-    color: #ffffff;
+    background: #ffffff;
+    color: #F15B22;
     border: none;
     width: 160px;
     height: 60px;
     border-radius: 5px;
+    margin-left: 64px;
+    margin-bottom: 59px;
+    font-size: 20px;
 }
 
 /* Previous Year */
@@ -70,6 +73,7 @@ main{
 
 .failures-of-previous-year p{
     font-size: 16px;
+    color: black;
 }
 
 /* My Plans */
@@ -118,7 +122,6 @@ main{
 }
 
 .primary-btns{
-    margin-left: 65px;
     margin-bottom: 59px;
     background: #ffffff;
     color: #F15B22;
@@ -126,6 +129,7 @@ main{
     width: 160px;
     height: 60px;
     border-radius: 5px;
+    font-size: 20px;
 }
 
 /* Footer Section */
@@ -133,12 +137,14 @@ main{
 .footer-section{
     background: black;
     display: flex;
-    padding-top: 130px;
+    margin-top: 130px;
     padding-bottom: 130px;
+    padding-top: 130px;
+    justify-content: space-between;
 }
 
 .future{
-    width: 50%;
+    width: 40%;
     margin-left: 17px;
 }
 .future h3,p{
@@ -158,7 +164,7 @@ main{
 }
 
 .subscribe{
-    width: 50%;
+    width: 40%;
     text-align: left;
     display: block;
 }
@@ -166,11 +172,22 @@ main{
 .subscribe h3, .form{
     color: #ffffff;
 }
-
+.subscribe h3{
+    font-size: 25px;
+    padding-bottom: 30px;
+}
+.subscribe input{
+    width: 325px;
+    height: 65px;
+    background: none;
+    border-radius: 5px;
+    border-color: #e8dfdf;
+    color: #ffffff;
+    margin-bottom: 16px;
+}
 /* Social Icon */
 
 .social-icon i{
-    margin-left: 17px;
     /* color: #F15B22; */
     border-radius: 50%;
     text-align: center;
@@ -178,9 +195,8 @@ main{
     width: 47px;
     height: 46px;
     background: #ffffff;
+    margin-top: 30px;
 }
-
-
 
 .social-icon .facebook{
     color: #006AFF;
