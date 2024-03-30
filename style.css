@@ -34,6 +34,17 @@ main{
 }
 
 .primary-btn{
+    background: #F15B22;
+    color: #ffffff;
+    border: none;
+    width: 160px;
+    height: 60px;
+    border-radius: 5px;
+    margin-left: 64px;
+    margin-bottom: 59px;
+    font-size: 20px;
+}
+.primary-button{
     background: #ffffff;
     color: #F15B22;
     border: none;
@@ -43,6 +54,7 @@ main{
     margin-left: 64px;
     margin-bottom: 59px;
     font-size: 20px;
+
 }
 
 /* Previous Year */
@@ -177,7 +189,7 @@ main{
     padding-bottom: 30px;
 }
 .subscribe input{
-    width: 325px;
+    width: 350px;
     height: 65px;
     background: none;
     border-radius: 5px;
